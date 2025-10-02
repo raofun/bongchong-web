@@ -15,6 +15,7 @@
     text-align: center;
     margin-bottom: 48px;
 }
+
 .section-title {
     color: #0D1321;
     text-align: center;
@@ -25,6 +26,7 @@
     line-height: normal;
     align-self: stretch;
 }
+
 .section-description {
     color: #0D1321;
     text-align: center;
@@ -36,11 +38,12 @@
     align-self: stretch;
 }
 
-.lang-tit-des{
+.lang-tit-des {
     display: flex;
     flex-direction: column;
     gap: 8px;
 }
+
 .lang-title {
     color: #0D1321;
     font-family: "Azeret Mono";
@@ -352,7 +355,122 @@ nav {
     background: rgba(255, 223, 0, 0.05);
     gap: 24px;
 }
+
 /* Next-target */
-.next-target-container{
+.next-target-container {
     margin: 111px 150px 49px 150px;
 }
+
+.next-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    align-items: flex-start;
+
+}
+
+.all-card {
+    display: flex;
+    align-items: flex-start;
+    align-self: stretch;
+    padding: 40px;
+    align-items: stretch;
+    gap: 24px;
+    flex: 1 0 0;
+    border-radius: 16px;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    background: #FFF;
+}
+
+.button-title-des {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+}
+
+/* Support Banner */
+.support-container {
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%),
+        linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%),
+        linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%),
+        url('../assets/handshake.jpg');
+    background-size: cover;
+    background-position: center;
+    margin: 0px 150px 80px 150px;
+    border-radius: 16px;
+    padding: 64px 48px;
+
+
+}
+
+.support-title-des-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.support-title {
+    color: #FFF;
+    text-align: center;
+    font-family: "Azeret Mono";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px;
+    margin-bottom: 16px;
+
+}
+
+.support-description {
+    color: #FFF;
+    text-align: center;
+    font-family: "Azeret Mono";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 24px;
+
+}
+
+.input-button{
+    display: flex; 
+    gap: 16px;
+    justify-content: center;
+}
+
+.support-input{
+border-radius: 8px;
+border: 1px solid rgba(13, 19, 33, 0.15);
+background: #FFF;
+width: 548px;
+padding: 19px 20px;
+align-items: center;
+color: rgba(13, 19, 33, 0.40);
+text-align: left;
+font-family: "Azeret Mono";
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.support-button{
+width: 120px;
+padding: 17px 20px;
+justify-content: center;
+align-items: center;
+border-radius: 8px;
+background: #FFF;
+border: none;
+
+color: #0D1321;
+text-align: center;
+font-family: "Azeret Mono";
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+/* Footer Styles */
