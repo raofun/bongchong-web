@@ -15,7 +15,6 @@
     text-align: center;
     margin-bottom: 48px;
 }
-
 .section-title {
     color: #0D1321;
     text-align: center;
@@ -26,7 +25,6 @@
     line-height: normal;
     align-self: stretch;
 }
-
 .section-description {
     color: #0D1321;
     text-align: center;
@@ -38,6 +36,46 @@
     align-self: stretch;
 }
 
+.lang-tit-des{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.lang-title {
+    color: #0D1321;
+    font-family: "Azeret Mono";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 36px;
+}
+
+.lang-des {
+    color: #0D1321;
+    font-family: "Azeret Mono";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.lang-button {
+    color: #0D1321;
+    font-family: "Azeret Mono";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-skip-ink: none;
+    text-decoration-thickness: auto;
+    text-underline-offset: auto;
+    text-underline-position: from-font;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
 
 /* Nav bar style */
 nav {
@@ -144,6 +182,7 @@ nav {
     font-style: normal;
     font-weight: 600;
     line-height: normal;
+    cursor: pointer;
 }
 
 /* First section style  */
@@ -239,6 +278,7 @@ nav {
     font-weight: 600;
     line-height: normal;
     background: none;
+    cursor: pointer;
 }
 
 .inspiration-container {
@@ -259,8 +299,60 @@ nav {
     border-radius: 16px;
     border: 1px solid rgba(13, 19, 33, 0.20);
 }
-.video-inspiration{
+
+.video-inspiration {
     border-radius: 16px;
     height: 550px;
     width: 100%;
+}
+
+/* Current Target */
+.current-target-container {
+    margin: 0px 150px;
+}
+
+.current-cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    /* align-items: center; */
+    /* align-content: center; */
+    gap: 24px;
+}
+
+.left-card {
+    display: flex;
+    width: 364px;
+    padding: 40px;
+    flex-direction: column;
+    align-items: flex-start;
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+    gap: 24px;
+}
+
+.middle-card {
+    display: flex;
+    width: 364px;
+    padding: 40px;
+    flex-direction: column;
+    align-items: flex-start;
+    border-radius: 16px;
+    background: rgba(0, 76, 232, 0.05);
+    gap: 24px;
+}
+
+.right-card {
+    display: flex;
+    width: 364px;
+    padding: 40px;
+    flex-direction: column;
+    align-items: flex-start;
+    border-radius: 16px;
+    background: rgba(255, 223, 0, 0.05);
+    gap: 24px;
+}
+/* Next-target */
+.next-target-container{
+    margin: 111px 150px 49px 150px;
 }
